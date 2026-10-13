@@ -1,0 +1,52 @@
+{
+  "completedAt": "2026-10-09T15:04:06.854Z",
+  "preservation": {
+    "assetsVerified": 59,
+    "assetMismatches": 0,
+    "originalFilesVerified": 401,
+    "originalChanges": [],
+    "migratedExistingContentChanges": []
+  },
+  "studio": {
+    "passed": true,
+    "control": "textarea",
+    "filesystemSaved": true,
+    "otherFieldsPreserved": true,
+    "serverRenderedFormatting": true,
+    "survivesReload": true,
+    "errors": []
+  },
+  "contentTests": {
+    "passed": 9,
+    "failed": 0
+  },
+  "routing": {
+    "owned": 17,
+    "passthrough": 28
+  },
+  "build": {
+    "command": "npm run build",
+    "exitCode": 0,
+    "postbuildScriptsPassed": true
+  },
+  "desktopMobile": {
+    "pages": 8,
+    "allMatch": true,
+    "baselineAdjustment": "Same SbRichText server-rendering fix applied to baseline fixture; original baseline report preserved."
+  },
+  "worker": {
+    "pages200": 4,
+    "unpublishedVideo404": true,
+    "productionVideos": 0,
+    "homeDraftDisabled": true
+  },
+  "deployed": false,
+  "settings": {
+    "settingsEdit": true,
+    "otherSettingsPreserved": true,
+    "headerUpdatedWithoutReload": true,
+    "headerPersistsAfterReload": true,
+    "localDraftVideos": 6,
+    "errors": []
+  }
+}

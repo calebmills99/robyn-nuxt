@@ -1,8 +1,8 @@
 /**
- * Video stories (Storyblok folder "videos", content type `video`) for /videos, /videos/<slug>
- * and /sitemap-videos.xml. Published stories only, except a signed Visual Editor request.
+ * Local video entries for /videos, /videos/<slug>, and /sitemap-videos.xml.
+ * The production listing and video sitemap include published entries only.
  */
-import { serverStoryblokClient } from '#storyblok/server'
+import { localVideos } from './localContent'
 import { isoDuration, sbDateIso, streamEmbed, streamHls, streamIdFrom, videoThumb } from '../../app/utils/stream'
 
 export interface VideoInfo {
@@ -63,14 +63,5 @@ export async function videoInfo(story: any): Promise<VideoInfo> {
 
 /** Published video stories, newest upload first. */
 export async function publishedVideos(event: any): Promise<any[]> {
-  const client = serverStoryblokClient(event)
-  const res: any = await client.get('cdn/stories', {
-    version: 'published',
-    starts_with: 'videos/',
-    content_type: 'video',
-    per_page: 100,
-    sort_by: 'content.upload_date:desc',
-    cv: Math.floor(Date.now() / 60000) * 60,
-  })
-  return (res?.data?.stories || []).filter((s: any) => !s.is_folder && streamIdFrom(s.content?.stream_id))
+  return (await localVideos()).filter(s => s.published && streamIdFrom(s.content?.stream_id))
 }

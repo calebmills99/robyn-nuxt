@@ -328,14 +328,23 @@ try {
 
     Write-Step "Installing open-source Nuxt Studio"
 
+    # npx forwards .npmrc settings as environment variables. npm 11.19
+    # rejects inherited allow-scripts during the CLI's nested npm install.
+    $nuxtExecutable = Join-Path $ProjectPath "node_modules/.bin/nuxt"
+    if ($IsWindows) {
+        $nuxtExecutable += ".cmd"
+    }
+
+    if (-not (Test-Path -LiteralPath $nuxtExecutable -PathType Leaf)) {
+        throw "The project's Nuxt CLI is missing. Install project dependencies first."
+    }
+
     Write-Host (
-        "Using official command: " +
-        "npx nuxt module add nuxt-studio"
+        "Using project Nuxt CLI: " +
+        "$nuxtExecutable module add nuxt-studio"
     )
 
-    Invoke-Checked "npx" @(
-        "--yes",
-        "nuxt",
+    Invoke-Checked $nuxtExecutable @(
         "module",
         "add",
         "nuxt-studio"
@@ -373,7 +382,7 @@ try {
     Write-Host ""
     Write-Host "Open the local URL printed below." -ForegroundColor Cyan
     Write-Host "Typical address: http://localhost:3000"
-    Write-Host "Studio route:    http://localhost:3000/_studio"
+    Write-Host "Open Studio using the floating editor button on the site."
     Write-Host ""
     Write-Host "Press Ctrl+C to stop the server."
     Write-Host ""

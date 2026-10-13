@@ -1,0 +1,217 @@
+{
+  "title": "About the Film",
+  "route": "/about-the-film",
+  "_uid": "aa2a9fbb-532b-4b42-af24-874a8b0cace6",
+  "og_image": {
+    "id": 227410354020117,
+    "alt": "",
+    "name": "",
+    "focus": "",
+    "title": "",
+    "source": "",
+    "filename": "https://a.storyblok.com/f/295612352463495/6123x4082/203dbbfccd/caleb_mills_stewart_headshot.jpg",
+    "copyright": "",
+    "fieldtype": "asset",
+    "meta_data": {
+      "size": "4082x6123"
+    },
+    "is_external_url": false
+  },
+  "component": "page",
+  "seo_title": "About the Film",
+  "hero_stream_id": "6a89f9b65ba8ad0590a183c9d6ebba4e",
+  "seo_description": "Golden Wings: Stewardess to Sky Queen is a documentary by Caleb Mills Stewart about his mother, American Airlines flight attendant Robyn Stewart, and three generations of one family at the same airline.",
+  "background_image": {
+    "id": 226870182486184,
+    "alt": "",
+    "name": "",
+    "focus": "",
+    "title": "",
+    "source": "",
+    "filename": "https://a.storyblok.com/f/295612352463495/x/9b20bbfd43/747synthroll.mp4",
+    "copyright": "",
+    "fieldtype": "asset",
+    "meta_data": {},
+    "is_external_url": false
+  },
+  "sectionOrder": [
+    "hero_1",
+    "text_section_1",
+    "image_text_1",
+    "video_embed_1",
+    "video_embed_2",
+    "image_band_1"
+  ],
+  "sections": {
+    "hero_1": {
+      "_uid": "03e457a8-6c3b-4ead-9ad4-76a858f52fe7",
+      "logo": {
+        "id": null,
+        "alt": "",
+        "name": "",
+        "focus": "",
+        "title": "",
+        "source": "",
+        "filename": "",
+        "copyright": "",
+        "fieldtype": "asset",
+        "meta_data": {},
+        "is_external_url": true
+      },
+      "title": "",
+      "height": "tall",
+      "laurels": [],
+      "component": "hero",
+      "show_title": false,
+      "background_image": {
+        "id": null,
+        "alt": "",
+        "name": "",
+        "focus": "",
+        "title": "",
+        "source": "",
+        "filename": "https://video.squarespace-cdn.com/content/v1/6657cd3cfe3d866e6cfb6106/6b7166b1-e541-4cb5-ad7a-42c73a58e4e1/thumbnail",
+        "copyright": "",
+        "fieldtype": "asset",
+        "meta_data": {},
+        "is_external_url": true
+      },
+      "background_video": "https://video.squarespace-cdn.com/content/v1/6657cd3cfe3d866e6cfb6106/6b7166b1-e541-4cb5-ad7a-42c73a58e4e1/playlist.m3u8"
+    },
+    "text_section_1": {
+      "_uid": "e27d5cb7-bb95-4acb-8730-87f277e245d1",
+      "text_markdown": "### **\"Golden Wings\"**\n\n#### **BEHIND THE STORY**",
+      "align": "center",
+      "theme": "none",
+      "heading": "ABOUT THE FILM",
+      "component": "text-section",
+      "heading_level": "h1",
+      "heading_style": "plate"
+    },
+    "image_text_1": {
+      "_uid": "ad542d79-1088-447f-843b-2cc9d1442906",
+      "text_markdown": "### History of our film\n\n**Robyn Stewart: flight attendant for more than fifty years, a living bridge between aviation’s past and present. She began flying before the Boeing 747’s first commercial flight and stayed aloft through seismic industry shifts: airline deregulation, the industry’s glittering golden age and its long hangover, and the trauma of September 11th. She buried her husband Henry in Frankfurt, walked into rehab, walked back out, and returned to the job she loved.**\n\n**Her son Caleb grew up in airport terminals and hotel lobbies, raised by a mother whose office was at 35,000 feet. What began as a nine-minute college film project became something much larger. Golden Wings: 50 Year Flight Path is the documentary born from that evolution — a deeply human chronicle of family, career, and the stubborn instinct to keep going.**\n\n**Assembled from decades of home video, rare archival footage, and candid new interviews with aviation insiders (including Jay Ricks, author of the original 747 training program, and Jock Bethune, a steward of industry lore) Golden Wings weaves personal memory with aviation history. This feature documentary highlights three generations linked by flight, exploring themes of resilience, loss, and the changing culture of air travel.**\n\n**Keywords: Robyn Stewart, flight attendant 50 years, Golden Wings documentary, Boeing 747 history, airline deregulation, aviation nostalgia, September 11th airline industry, aviation family stories, home video documentary, Jay Ricks 747 training, Jock Bethune aviation historian.**",
+      "image": {
+        "id": 226826200354458,
+        "alt": "",
+        "name": "",
+        "focus": "",
+        "title": "",
+        "source": "",
+        "filename": "https://a.storyblok.com/f/295612352463495/1768x2560/055166c0ff/robynheadshot_tealorangebg_upscale.jpg",
+        "copyright": "",
+        "fieldtype": "asset",
+        "meta_data": {
+          "size": "1768x2560"
+        },
+        "is_external_url": false
+      },
+      "theme": "gold",
+      "component": "image-text",
+      "image_link": {
+        "id": "",
+        "url": "/indie-doc-journey",
+        "linktype": "url",
+        "fieldtype": "multilink",
+        "cached_url": "/indie-doc-journey"
+      },
+      "image_side": "right",
+      "divider_top": "",
+      "inset_image": {
+        "id": 227410354020117,
+        "alt": "",
+        "name": "",
+        "focus": "",
+        "title": "",
+        "source": "",
+        "filename": "https://a.storyblok.com/f/295612352463495/6123x4082/203dbbfccd/caleb_mills_stewart_headshot.jpg",
+        "copyright": "",
+        "fieldtype": "asset",
+        "meta_data": {
+          "size": "4082x6123"
+        },
+        "is_external_url": false
+      },
+      "background_image": {
+        "id": 227412289421306,
+        "alt": "",
+        "name": "",
+        "focus": "",
+        "title": "",
+        "source": "",
+        "filename": "https://a.storyblok.com/f/295612352463495/5824x3264/83f9c43a0b/27.jpg",
+        "copyright": "",
+        "fieldtype": "asset",
+        "meta_data": {
+          "size": "5824x3264"
+        },
+        "is_external_url": false
+      }
+    },
+    "video_embed_1": {
+      "_uid": "a29c926e-533d-4614-b0a9-1c91191ef023",
+      "text_markdown": "### A Deeper Exploration\n\n**Caleb’s journey uncovers powerful stories of adversity and resilience, spotlighting his mother Robyn Stewart’s unwavering dedication through decades of airline industry change. What began as a student project evolved into Golden Wings, a heartfelt documentary that honors the perseverance of flight attendants and their pivotal role in shaping modern air travel. This inspiring indie film celebrates the legacy of flight attendants (unsung heroes who navigated layoffs, labor battles, regulatory shifts, and cultural change) to keep passengers safe and comforted at 30,000 feet. Golden Wings weaves decades of laughter, love, and transformation into a must-watch tribute for aviation fans, airline employees, and anyone moved by stories of resilience. Support this independent documentary and help preserve the history of commercial aviation, the human side of airline service, and the enduring spirit of those who soar above challenges. Keywords: Golden Wings documentary, Robyn Stewart, flight attendant documentary, aviation history, airline industry resilience, indie film about flight attendants, support independent documentary.**",
+      "theme": "none",
+      "video": "https://video.squarespace-cdn.com/content/v1/6657cd3cfe3d866e6cfb6106/eb7be457-9681-481b-834c-88dd6c2d35b5/playlist.m3u8",
+      "layout": "side",
+      "poster": {
+        "id": null,
+        "alt": "",
+        "name": "",
+        "focus": "",
+        "title": "",
+        "source": "",
+        "filename": "https://video.squarespace-cdn.com/content/v1/6657cd3cfe3d866e6cfb6106/eb7be457-9681-481b-834c-88dd6c2d35b5/thumbnail",
+        "copyright": "",
+        "fieldtype": "asset",
+        "meta_data": {},
+        "is_external_url": true
+      },
+      "heading": "TRAILER",
+      "component": "video-embed"
+    },
+    "video_embed_2": {
+      "_uid": "900d68df-1b0e-4537-999b-a38a1fce42fa",
+      "text_markdown": "### Our Mission\n\n**Our Mission — Honoring Flight Attendants, Preserving Aviation History**\n\n**At Golden Wings, we celebrate the remarkable legacy of flight attendants—the unsung heroes of aviation history. Our documentary spotlights their resilience, professionalism, and unwavering dedication while documenting how they shaped passenger safety, in-flight service, and airline culture across decades.**\n\n**What we do**\n\n- **Preserve oral histories and archival materials that capture the experiences of flight attendants from the early jets to the modern cockpit.**\n- **Showcase training, safety leadership, and crisis response skills that make flight attendants essential to every flight.**\n- **Reveal the social and cultural impact flight attendants have had on gender roles, labor rights, and global travel.**\n\n**Why it matters**\n\n- **Flight attendants are critical to passenger safety and emergency response; their stories teach valuable lessons in risk management and human-centered care.**\n- **Their careers reflect broader historical shifts—civil rights, women’s workplace advances, union movements, and changing standards in hospitality and security.**\n- **Telling these stories preserves a vital piece of aviation heritage for researchers, enthusiasts, and future generations.**\n\n**Join our mission**\n\n- **Support the documentary to help fund interviews, restoration of archive footage, and educational outreach.**\n- **Share these stories to inspire new generations and recognize the professionals who keep the world flying.**\n- **Follow Golden Wings for exclusive content, event announcements, and ways to get involved.**\n\n**Keywords to search by: flight attendant documentary, aviation history, flight attendant legacy, passenger safety, airline culture, oral histories, aviation documentary, Golden Wings.**\n\n**Support our mission, inspire others, and soar with us through decades of aviation history.**",
+      "theme": "none",
+      "video": "https://video.squarespace-cdn.com/content/v1/6657cd3cfe3d866e6cfb6106/b104f705-0dac-487b-adf1-91215160a195/playlist.m3u8",
+      "layout": "side",
+      "poster": {
+        "id": null,
+        "alt": "",
+        "name": "",
+        "focus": "",
+        "title": "",
+        "source": "",
+        "filename": "https://video.squarespace-cdn.com/content/v1/6657cd3cfe3d866e6cfb6106/b104f705-0dac-487b-adf1-91215160a195/thumbnail",
+        "copyright": "",
+        "fieldtype": "asset",
+        "meta_data": {},
+        "is_external_url": true
+      },
+      "heading": "CLIP!!!",
+      "component": "video-embed"
+    },
+    "image_band_1": {
+      "fit": "cover",
+      "_uid": "1af1cc92-b3a4-4a51-8e81-0e68f5286899",
+      "image": {
+        "id": null,
+        "alt": "",
+        "name": "",
+        "focus": "",
+        "title": "",
+        "source": "",
+        "filename": "https://images.squarespace-cdn.com/content/v1/6657cd3cfe3d866e6cfb6106/79095536-0b5a-4bf5-b377-f2277c21ecd3/1000027265.jpg",
+        "copyright": "",
+        "fieldtype": "asset",
+        "meta_data": {},
+        "is_external_url": true
+      },
+      "theme": "slate",
+      "height": "medium",
+      "component": "image-band",
+      "divider_top": "wave"
+    }
+  }
+}

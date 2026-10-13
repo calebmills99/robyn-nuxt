@@ -1,0 +1,512 @@
+{
+  "title": "Home",
+  "route": "/",
+  "_uid": "a2629272-c90b-4d02-9941-77091b926679",
+  "og_image": {
+    "id": 226207141419739,
+    "alt": "",
+    "name": "",
+    "focus": "",
+    "title": "",
+    "source": "",
+    "filename": "https://a.storyblok.com/f/295612352463495/1753x1121/4a2455ecb2/golden-wings-wordmark.png",
+    "copyright": "",
+    "fieldtype": "asset",
+    "meta_data": {
+      "size": "1753x1121"
+    },
+    "is_external_url": false
+  },
+  "component": "page",
+  "seo_title": "Golden Wings: Stewardess to Sky Queen",
+  "hero_stream_id": "e20680ae29bc9326fc69e4a0b815f9ad",
+  "seo_description": "Golden Wings, a moving documentary following flight attendant Robyn Stewart's 55-year legacy of resilience, family, and flight, told by her son Caleb.",
+  "background_image": {
+    "id": 226870182486184,
+    "alt": "",
+    "name": "",
+    "focus": "",
+    "title": "",
+    "source": "",
+    "filename": "https://a.storyblok.com/f/295612352463495/x/9b20bbfd43/747synthroll.mp4",
+    "copyright": "",
+    "fieldtype": "asset",
+    "meta_data": {},
+    "is_external_url": false
+  },
+  "sectionOrder": [
+    "hero_1",
+    "image_text_1",
+    "text_section_1",
+    "video_embed_1",
+    "image_band_1",
+    "gallery_1",
+    "button_row_1",
+    "image_band_2"
+  ],
+  "sections": {
+    "hero_1": {
+      "_uid": "ab005294-4de6-4d23-be34-ada6369d2428",
+      "logo": {
+        "id": 228203324201360,
+        "alt": "",
+        "name": "",
+        "focus": "",
+        "title": "",
+        "source": "",
+        "filename": "https://a.storyblok.com/f/295612352463495/3265x3264/7899085b71/gwssqlogowithtitle.png",
+        "copyright": "",
+        "fieldtype": "asset",
+        "meta_data": {},
+        "is_external_url": false
+      },
+      "title": "Golden Wings",
+      "height": "full",
+      "laurels": [
+        {
+          "id": null,
+          "alt": "Award winner white",
+          "name": "",
+          "focus": "",
+          "title": "",
+          "source": "",
+          "filename": "https://images.squarespace-cdn.com/content/v1/6657cd3cfe3d866e6cfb6106/4d89d86a-afd0-44d7-a6c4-be650d6e65e5/Award+winner+white.png",
+          "copyright": "",
+          "fieldtype": "asset",
+          "meta_data": {},
+          "is_external_url": true
+        },
+        {
+          "id": null,
+          "alt": "BEST SHORT CINEMATOGRAPHY - Silicon Beach Film Festival - 2024",
+          "name": "",
+          "focus": "",
+          "title": "",
+          "source": "",
+          "filename": "https://images.squarespace-cdn.com/content/v1/6657cd3cfe3d866e6cfb6106/61e843f7-0d3e-468f-b42f-b8f38cf58b72/BEST+SHORT+CINEMATOGRAPHY+-+Silicon+Beach+Film+Festival+-+2024+%281%29.png",
+          "copyright": "",
+          "fieldtype": "asset",
+          "meta_data": {},
+          "is_external_url": true
+        },
+        {
+          "id": null,
+          "alt": "BEST FIRST TIME DIRECTOR - Magic Silver Screen - 2024",
+          "name": "",
+          "focus": "",
+          "title": "",
+          "source": "",
+          "filename": "https://images.squarespace-cdn.com/content/v1/6657cd3cfe3d866e6cfb6106/5125432d-e318-48cd-abef-221081ce2a01/BEST+FIRST+TIME+DIRECTOR+-+Magic+Silver+Screen+-+2024+%281%29.png",
+          "copyright": "",
+          "fieldtype": "asset",
+          "meta_data": {},
+          "is_external_url": true
+        },
+        {
+          "id": null,
+          "alt": "BEST DOCUMENTARY SHORT - IGFA - International Guadalajara Film Awards - 2024",
+          "name": "",
+          "focus": "",
+          "title": "",
+          "source": "",
+          "filename": "https://images.squarespace-cdn.com/content/v1/6657cd3cfe3d866e6cfb6106/c542517b-302a-4264-b7bc-9ddab8ae697a/BEST+DOCUMENTARY+SHORT+-+IGFA+-+International+Guadalajara+Film+Awards+-+2024+%281%29.png",
+          "copyright": "",
+          "fieldtype": "asset",
+          "meta_data": {},
+          "is_external_url": true
+        },
+        {
+          "id": null,
+          "alt": "Most Inspiring - The NewsFest true stories - 2024",
+          "name": "",
+          "focus": "",
+          "title": "",
+          "source": "",
+          "filename": "https://images.squarespace-cdn.com/content/v1/6657cd3cfe3d866e6cfb6106/74e02b58-9e4b-41ea-ac33-9714f0735999/Most+Inspiring+-+The+NewsFest+true+stories+-+2024.png",
+          "copyright": "",
+          "fieldtype": "asset",
+          "meta_data": {},
+          "is_external_url": true
+        },
+        {
+          "id": null,
+          "alt": "BEST MOBILE SHORT - Independent Shorts Awards - 2024",
+          "name": "",
+          "focus": "",
+          "title": "",
+          "source": "",
+          "filename": "https://images.squarespace-cdn.com/content/v1/6657cd3cfe3d866e6cfb6106/327c4d20-f625-4344-85e1-ff040bd34ec2/BEST+MOBILE+SHORT+-+Independent+Shorts+Awards+-+2024+%281%29.png",
+          "copyright": "",
+          "fieldtype": "asset",
+          "meta_data": {},
+          "is_external_url": true
+        },
+        {
+          "id": null,
+          "alt": "BEST DOCUMENTARY SHORT - Magic Silver Screen - 2024",
+          "name": "",
+          "focus": "",
+          "title": "",
+          "source": "",
+          "filename": "https://images.squarespace-cdn.com/content/v1/6657cd3cfe3d866e6cfb6106/e31adc34-4279-41a7-9cc0-eff45024bc69/BEST+DOCUMENTARY+SHORT+-+Magic+Silver+Screen+-+2024.png",
+          "copyright": "",
+          "fieldtype": "asset",
+          "meta_data": {},
+          "is_external_url": true
+        },
+        {
+          "id": null,
+          "alt": "Most Outstanding - The NewsFest true stories - 2024",
+          "name": "",
+          "focus": "",
+          "title": "",
+          "source": "",
+          "filename": "https://images.squarespace-cdn.com/content/v1/6657cd3cfe3d866e6cfb6106/3909ab67-aae3-45da-8892-c8edcee61c28/Most+Outstanding+-+The+NewsFest+true+stories+-+2024+%281%29.png",
+          "copyright": "",
+          "fieldtype": "asset",
+          "meta_data": {},
+          "is_external_url": true
+        },
+        {
+          "id": null,
+          "alt": "17-arff-barcelona-best-student-film-1-1-1",
+          "name": "",
+          "focus": "",
+          "title": "",
+          "source": "",
+          "filename": "https://images.squarespace-cdn.com/content/v1/6657cd3cfe3d866e6cfb6106/77d39d11-763e-4a47-9f54-424ec4dbceda/17-arff-barcelona-best-student-film-1-1-1.png",
+          "copyright": "",
+          "fieldtype": "asset",
+          "meta_data": {},
+          "is_external_url": true
+        },
+        {
+          "id": null,
+          "alt": "ARFF_Paris_Official_2024_W_FilmFreeway",
+          "name": "",
+          "focus": "",
+          "title": "",
+          "source": "",
+          "filename": "https://images.squarespace-cdn.com/content/v1/6657cd3cfe3d866e6cfb6106/0a313f7b-a36e-43a5-8f83-7e1e96cd22f5/ARFF_Paris_Official_2024_W_FilmFreeway.png",
+          "copyright": "",
+          "fieldtype": "asset",
+          "meta_data": {},
+          "is_external_url": true
+        },
+        {
+          "id": null,
+          "alt": "FINALIST - NYC Independent Film Festival - 2024",
+          "name": "",
+          "focus": "",
+          "title": "",
+          "source": "",
+          "filename": "https://images.squarespace-cdn.com/content/v1/6657cd3cfe3d866e6cfb6106/c9e836d3-e5c5-4d4b-8690-18ecb62d8529/FINALIST+-+NYC+Independent+Film+Festival+-+2024.png",
+          "copyright": "",
+          "fieldtype": "asset",
+          "meta_data": {},
+          "is_external_url": true
+        },
+        {
+          "id": null,
+          "alt": "SEMIFINALIST-BtchFestFilmFestivalScreenplayContest-2025",
+          "name": "",
+          "focus": "",
+          "title": "",
+          "source": "",
+          "filename": "https://images.squarespace-cdn.com/content/v1/6657cd3cfe3d866e6cfb6106/eea1b348-2b5e-4609-85a3-1b2a34e18798/SEMIFINALIST-BtchFestFilmFestivalScreenplayContest-2025.png",
+          "copyright": "",
+          "fieldtype": "asset",
+          "meta_data": {},
+          "is_external_url": true
+        },
+        {
+          "id": null,
+          "alt": "OFFICIAL-SELECTION_ORO_2025",
+          "name": "",
+          "focus": "",
+          "title": "",
+          "source": "",
+          "filename": "https://images.squarespace-cdn.com/content/v1/6657cd3cfe3d866e6cfb6106/9bb829dc-6866-458c-bd4f-f8bb85ab53ee/OFFICIAL-SELECTION_ORO_2025.png",
+          "copyright": "",
+          "fieldtype": "asset",
+          "meta_data": {},
+          "is_external_url": true
+        }
+      ],
+      "component": "hero",
+      "show_title": false,
+      "background_color": "",
+      "background_image": {
+        "id": 226870859428016,
+        "alt": "",
+        "name": "",
+        "focus": "",
+        "title": "",
+        "source": "",
+        "filename": "https://a.storyblok.com/f/295612352463495/864x480/45bef48fdc/mpv-shot0027.jpg",
+        "copyright": "",
+        "fieldtype": "asset",
+        "meta_data": {
+          "size": "864x480"
+        },
+        "is_external_url": false
+      },
+      "background_video": "f10111ba6c3feb0a34986f06f5467709"
+    },
+    "image_text_1": {
+      "_uid": "4c0d2993-bb5e-4174-8464-10f97cf6f150",
+      "text_markdown": "## Golden Wings: An Award-Winning Aviation Documentary\n\n**Golden Wings: Fifty Year Flight Path** is an award-winning aviation documentary directed by Los Angeles filmmaker Caleb Mills Stewart. The film chronicles the 53-year career of American Airlines flight attendant Robyn Stewart and explores the evolution of commercial aviation through iconic aircraft including the Boeing 747, Boeing 707, Boeing 727, Boeing 777, and Boeing 787.\n\n### A Story of Women in Aviation and Airline History\n\nMore than a flight attendant documentary, *Golden Wings* highlights the changing role of women in aviation and the transformation of the airline industry over five decades. From the jet age to modern international routes, the film captures both historical milestones and personal resilience.\n\n### About the Director\n\nCaleb Mills Stewart is a Los Angeles-based documentary filmmaker whose work focuses on legacy, resilience, and the human spirit. Golden Wings has received multiple international awards, including Best Documentary Short at the Swedish International Film Festival and Best Mobile Short at the Independent Shorts Awards.\n\n### Explore the Indie Doc Journey\n\nBeyond the film, the companion blog [My Indie Doc Journey](/indie-doc-journey) shares insights into independent documentary filmmaking, festival strategy, and the craft of storytelling. Watch the featured video, “10 Documentaries That Will Change Your Life,” and discover behind-the-scenes lessons from an award-winning aviation documentary.",
+      "image": {
+        "id": 226875250213049,
+        "alt": "",
+        "name": "",
+        "focus": "",
+        "title": "",
+        "source": "",
+        "filename": "https://a.storyblok.com/f/295612352463495/1083x1452/e6ab4da554/gwssq_poster_2026.png",
+        "copyright": "",
+        "fieldtype": "asset",
+        "meta_data": {
+          "size": "1083x1452"
+        },
+        "is_external_url": false
+      },
+      "theme": "slate",
+      "component": "image-text",
+      "image_side": "right",
+      "text_color": "",
+      "divider_top": "wave",
+      "heading_color": "#e0c04a",
+      "background_color": "",
+      "background_image": {
+        "id": null,
+        "alt": null,
+        "name": "",
+        "focus": null,
+        "title": null,
+        "filename": null,
+        "copyright": null,
+        "fieldtype": "asset",
+        "meta_data": {},
+        "is_external_url": false
+      },
+      "button_text_color": "",
+      "text_color_custom": ""
+    },
+    "text_section_1": {
+      "_uid": "cd4956c2-5cf9-4461-9648-b8ee8d503c05",
+      "text_markdown": "**STOCKHOLM, SWEDEN — July 25, 2025** — *Golden Wings: Fifty Year Flight Path*, the award-winning short documentary directed by Caleb Mills Stewart, has been named **Best Documentary (Short)** at the [46th Swedish International Film Festival (SIFF)](https://www.thesiff.com/), with winners officially announced in late July.\n\n*Golden Wings*, a cinematic tribute to aviation history and generational legacy, stood out among hundreds of submissions from around the globe. The announcement was made via the [official SIFF Winners page](https://www.thesiff.com/march-march-2025/), where a still frame from the film was prominently featured.\n\n> **\"It’s an honor to be recognized by a festival with SIFF’s cultural reach and reputation,\"** said director Caleb Mills Stewart. *\"This recognition validates the deep emotional and historical layers we sought to capture through minimalist production and vérité style.\"*\n\n## Festival Favorite with Global Momentum\n\nOriginally produced as a student project, *Golden Wings: Fifty Year Flight Path* has gained acclaim for its layered storytelling, archival structure, and mobile cinematography. Shot entirely on a smartphone with a micro-budget, the film pays tribute to commercial aviation’s human history and the legacy of flight crews.\n\n## Synopsis\n\nThe film explores five decades of aviation history through the life of Robyn Stewart—a flight attendant whose career reflects larger social and technological shifts. Combining archival material and vérité moments, it delivers an emotional narrative about professionalism, evolution, and memory in the sky.\n\n## Major Awards & Recognition\n\n- **Swedish International Film Festival (2025):** Best Documentary (Short)\n- **NewsFest Santa Monica:** Most Inspirational, Best Trailer\n- **Silicon Beach Film Festival:** Best Cinematography (Rough Cut)\n- **Beyond Hollywood IFF:** Finalist – Best Short Documentary\n- **NYC Independent Film Festival:** Winner – Best Documentary\n\n## Learn More\n\n- [IMDb – Golden Wings](https://www.imdb.com/title/tt33046424)\n- [Official Film Website](https://www.golden-wings-robyn.com)\n- [FilmFreeway Page](https://filmfreeway.com/GoldenWingsDoc)\n- [Director IMDb Profile](https://www.imdb.com/name/nm5278087)\n\n## Press Contact\n\n**Caleb Mills Stewart**  \nDirector, *Golden Wings: Fifty Year Flight Path*  \n📧 [caleb@golden-wings-robyn.com](caleb@golden-wings-robyn.com)  \n📞 (562) 523‑9620  \n🌐 [www.golden-wings-robyn.com](https://www.golden-wings-robyn.com)",
+      "align": "left",
+      "theme": "gold",
+      "heading": "Golden Wings: Fifty Year Flight Path Wins Best Documentary (Short) at 2025 Swedish International Film Festival",
+      "component": "text-section",
+      "heading_level": "h2",
+      "heading_style": "akira",
+      "collapse_label": "Read Full Press Release"
+    },
+    "video_embed_1": {
+      "_uid": "284805a3-96cc-4faf-9189-69bd6df0e369",
+      "text_markdown": "This archival segment from **Golden Wings: Fifty Year Flight Path** explores the American Airlines Stewardess College in 1968, a defining moment in aviation history. The program trained a new generation of flight attendants during the jet age, shaping standards of professionalism, service, and international travel.\n\nFeaturing rare footage and the leadership of legendary president **Millie Alford**, this mini documentary highlights the evolving role of women in aviation and the transformation of the airline industry. The Stewardess College represents a pivotal chapter in commercial aviation history and the foundation of modern flight attendant training.",
+      "theme": "none",
+      "video": "dbf8f7a8cbbe6600893c93d7235f8f59",
+      "layout": "stacked",
+      "poster": {
+        "id": null,
+        "alt": "",
+        "name": "",
+        "focus": "",
+        "title": "",
+        "source": "",
+        "filename": "https://imagedelivery.net/UG5iXh0kt-Kh8TQH83WpkA/images/archive/GW50YFP_still_Stewardess_College_Footage_1968.png/gwr480",
+        "copyright": "",
+        "fieldtype": "asset",
+        "meta_data": {},
+        "is_external_url": true
+      },
+      "heading": "American Airlines Stewardess College (1968)",
+      "autoplay": true,
+      "component": "video-embed",
+      "background_image": {
+        "id": null,
+        "alt": "",
+        "name": "",
+        "focus": "",
+        "title": "",
+        "source": "",
+        "filename": "https://images.squarespace-cdn.com/content/v1/6657cd3cfe3d866e6cfb6106/1772482724571-PYC61ECNO3NUR0R06KA7/unsplash-image-Q5akQr0bn9A.jpg",
+        "copyright": "",
+        "fieldtype": "asset",
+        "meta_data": {},
+        "is_external_url": true
+      }
+    },
+    "image_band_1": {
+      "fit": "contain",
+      "_uid": "585e4410-72ad-4ee7-a6a9-31b8fea67899",
+      "image": {
+        "id": null,
+        "alt": "",
+        "name": "",
+        "focus": "",
+        "title": "",
+        "source": "",
+        "filename": "https://images.squarespace-cdn.com/content/v1/6657cd3cfe3d866e6cfb6106/316291db-bc7e-4037-bbc4-e76872097f8a/boeing747.png",
+        "copyright": "",
+        "fieldtype": "asset",
+        "meta_data": {},
+        "is_external_url": true
+      },
+      "theme": "slate",
+      "height": "tall",
+      "component": "image-band"
+    },
+    "gallery_1": {
+      "_uid": "65a61151-3a36-468c-bb1a-0ebcf0dc5b5d",
+      "text_markdown": "# Robyn Stewart : A 50 Year American Airlines Legacy\n\n**Robyn Stewart’s five-decade career with American Airlines represents one of the longest-serving flight attendant careers in modern commercial aviation. From the era of the Boeing 707 and 727 to today’s Boeing 777 and 787 Dreamliner, her story reflects the transformation of the airline industry across generations.**\n\n**Golden Wings documents not only an extraordinary professional milestone but a living aviation legacy. Spanning international routes from DFW to Rome and Tokyo to Frankfurt, Robyn Stewart’s journey mirrors the globalization of air travel and the enduring role of women in aviation leadership.**\n\n**This section celebrates dedication, resilience, and the evolving identity of the modern flight attendant.**",
+      "intro": "",
+      "style": "captioned",
+      "theme": "none",
+      "credit": "",
+      "images": [
+        {
+          "id": null,
+          "alt": "",
+          "name": "",
+          "focus": "",
+          "title": "Robyn Stewart at her graduation from The Stewardess College in 1971, proudly flanked by her beaming parents Jay and Marie Ricks.",
+          "source": "",
+          "filename": "https://images.squarespace-cdn.com/content/v1/6657cd3cfe3d866e6cfb6106/ab0170ca-89bb-4f65-8e09-218ecce82b5d/Robyn_1971-grad-blog.png",
+          "copyright": "",
+          "fieldtype": "asset",
+          "meta_data": {},
+          "is_external_url": true
+        },
+        {
+          "id": 226878570700993,
+          "alt": "",
+          "name": "",
+          "focus": "",
+          "title": "Robyn received a commendation on her 55th anniversary on board a flight to Tokyo.",
+          "source": "",
+          "filename": "https://a.storyblok.com/f/295612352463495/4813x3610/1c2fa3296a/gwssq_55_year_commendation_enhanced.png",
+          "copyright": "",
+          "fieldtype": "asset",
+          "meta_data": {
+            "size": "4813x3610",
+            "title": "Robyn received a commendation on her 55th anniversary on board a flight to Tokyo."
+          }
+        }
+      ],
+      "columns": "2",
+      "eyebrow": "",
+      "heading": "A living legend : timeless, graceful, unforgettable.",
+      "component": "gallery",
+      "text_color": "",
+      "divider_top": "wave",
+      "button_color": "",
+      "heading_color": "",
+      "heading_plate": true,
+      "download_label": "",
+      "background_color": "",
+      "background_image": {
+        "id": null,
+        "alt": "",
+        "name": "",
+        "focus": "",
+        "title": "",
+        "source": "",
+        "filename": "https://images.squarespace-cdn.com/content/v1/6657cd3cfe3d866e6cfb6106/1777335650579-XKSCUYZY20J8CO6IZRN0/unsplash-image-oMpAz-DN-9I.jpg",
+        "copyright": "",
+        "fieldtype": "asset",
+        "meta_data": {},
+        "is_external_url": true
+      },
+      "button_text_color": "",
+      "text_color_custom": "fffff",
+      "button_color_custom": "",
+      "heading_color_custom": "",
+      "background_color_custom": "",
+      "button_text_color_custom": ""
+    },
+    "button_row_1": {
+      "_uid": "5540295d-a8e4-42d7-8aaf-da20ce5f7f5f",
+      "align": "center",
+      "image": {
+        "id": null,
+        "alt": "",
+        "name": "",
+        "focus": "",
+        "title": "",
+        "source": "",
+        "filename": "https://images.squarespace-cdn.com/content/v1/6657cd3cfe3d866e6cfb6106/ee93259f-5a29-4abd-b56f-ca06695f2db0/caleb_paly_button_blog.png",
+        "copyright": "",
+        "fieldtype": "asset",
+        "meta_data": {},
+        "is_external_url": true
+      },
+      "theme": "gold",
+      "buttons": [
+        {
+          "_uid": "d6e6016f-a8d6-4f95-8e2a-fcd0df8f7f4d",
+          "link": {
+            "id": "",
+            "url": "/indie-doc-journey",
+            "linktype": "url",
+            "fieldtype": "multilink",
+            "cached_url": "/indie-doc-journey"
+          },
+          "label": "Read the Blog!",
+          "style": "primary",
+          "download": false,
+          "component": "button",
+          "download_filename": ""
+        },
+        {
+          "_uid": "d361c5e7-8747-4c00-9dad-57dbc113d2dd",
+          "link": {
+            "id": "",
+            "url": "/optin",
+            "linktype": "url",
+            "fieldtype": "multilink",
+            "cached_url": "/optin"
+          },
+          "label": "Free Newsletter",
+          "style": "plain",
+          "download": false,
+          "component": "button",
+          "download_filename": ""
+        }
+      ],
+      "component": "button-row",
+      "image_link": {
+        "id": "",
+        "url": "/caleb-blog-preview",
+        "linktype": "url",
+        "fieldtype": "multilink",
+        "cached_url": "/caleb-blog-preview"
+      },
+      "divider_top": "wave"
+    },
+    "image_band_2": {
+      "fit": "cover",
+      "_uid": "bbe0b1d9-899e-45e4-b629-00ad8f094828",
+      "image": {
+        "id": null,
+        "alt": "",
+        "name": "",
+        "focus": "",
+        "title": "",
+        "source": "",
+        "filename": "https://images.squarespace-cdn.com/content/v1/6657cd3cfe3d866e6cfb6106/43e40661-e28c-4d87-b3e5-12b285da8f63/ROBYN_BABY_RESTOR+copy+2.jpeg",
+        "copyright": "",
+        "fieldtype": "asset",
+        "meta_data": {},
+        "is_external_url": true
+      },
+      "theme": "gold",
+      "height": "natural",
+      "component": "image-band",
+      "divider_top": "wave"
+    }
+  }
+}

@@ -63,7 +63,7 @@ export function videoThumb(c: any, height = 720): string {
   return `https://${STREAM_CUSTOMER}.cloudflarestream.com/${uid}/thumbnails/thumbnail.jpg?${time}height=${height}`
 }
 
-/** Storyblok datetime ("2026-09-25 19:59", UTC) -> ISO 8601 ("2026-09-25T19:59:00Z"); '' if unset. */
+/** Content datetime ("2026-09-25 19:59", UTC) -> ISO 8601 ("2026-09-25T19:59:00Z"); '' if unset. */
 export function sbDateIso(v: unknown): string {
   const m = String(v ?? '').trim().match(/^(\d{4}-\d{2}-\d{2})(?:[ T](\d{2}:\d{2})(?::(\d{2}))?)?/)
   if (!m) return ''

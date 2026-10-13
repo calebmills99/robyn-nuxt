@@ -1,0 +1,7 @@
+    home: defineCollection({ type: 'data', source: 'studio/pages/home.json', schema: homeSchema }),
+    homeDraft: defineCollection({ type: 'data', source: 'studio/drafts/home.json', schema: homeSchema }),
+    film: defineCollection({ type: 'data', source: 'studio/pages/film.json', schema: filmSchema }),
+    aboutTheFilm: defineCollection({ type: 'data', source: 'studio/pages/about-the-film.json', schema: aboutTheFilmSchema }),
+    pressKit: defineCollection({ type: 'data', source: 'studio/pages/press-kit.json', schema: pressKitSchema }),
+    siteSettings: defineCollection({ type: 'data', source: 'studio/settings/site.json', schema: siteSettingsSchema }),
+    videoLibrary: defineCollection({ type: 'data', source: 'studio/videos/*.json', schema: videoLibrarySchema }),

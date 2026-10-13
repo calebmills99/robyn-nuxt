@@ -11,7 +11,6 @@ const items = computed(() => (props.buttons || [])
     <a
       v-for="b in items"
       :key="b.blok._uid"
-      v-editable="b.blok"
       :class="['sb-btn', `sb-btn--${b.blok.style || 'primary'}`]"
       :href="b.href"
       :download="b.blok.download ? (b.blok.download_filename || '') : undefined"
