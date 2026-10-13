@@ -1,10 +1,10 @@
 <script setup lang="ts">
 /**
- * /videos: every PUBLISHED video story (Storyblok folder "videos"), newest upload first, each
+ * /videos: every PUBLISHED local video (content/studio/videos), newest upload first, each
  * linking to its own page. Empty until a video is published (and noindex while empty).
  * Ends with the one gwingz.com band.
  */
-const { data, error } = await useAsyncData('videos-index', () => $fetch<{ videos: any[] }>('/api/storyblok/videos'))
+const { data, error } = await useAsyncData('videos-index', () => $fetch<{ videos: any[] }>('/api/content/videos'))
 if (error.value) throw createError({ statusCode: 503, statusMessage: 'Videos unavailable', fatal: true })
 const videos = computed(() => (data.value?.videos || []).filter((v: any) => v.title))
 

@@ -1,0 +1,81 @@
+{
+  "sourceExport": "C:/Users/caleb/Documents/Codex/2026-10-09/robyn-studio-migration/export",
+  "pages": [
+    {
+      "slug": "home",
+      "storyId": 226198012345511,
+      "uuid": "0c582112-6432-49cf-aff3-266fb7cd1c8b",
+      "file": "pages/home.json",
+      "sectionCount": 8
+    },
+    {
+      "slug": "film",
+      "storyId": 226207416593792,
+      "uuid": "0bf6e63d-b217-49a0-ad0d-9ad9716034c1",
+      "file": "pages/film.json",
+      "sectionCount": 2
+    },
+    {
+      "slug": "about-the-film",
+      "storyId": 226207419596161,
+      "uuid": "4ec6a4a6-88cf-4191-8243-0120a55626d6",
+      "file": "pages/about-the-film.json",
+      "sectionCount": 6
+    },
+    {
+      "slug": "press-kit",
+      "storyId": 226207423114626,
+      "uuid": "6f9c9a23-544b-4718-a505-57fe60872ad0",
+      "file": "pages/press-kit.json",
+      "sectionCount": 9
+    }
+  ],
+  "drafts": [
+    "home"
+  ],
+  "videos": [
+    "videos/le-france",
+    "videos/clip",
+    "videos/reel",
+    "videos/colour-before-after",
+    "videos/stewardess-college-1968",
+    "videos/trailer"
+  ],
+  "collections": [
+    {
+      "name": "home",
+      "schemaName": "homeSchema",
+      "source": "studio/pages/home.json"
+    },
+    {
+      "name": "homeDraft",
+      "schemaName": "homeSchema",
+      "source": "studio/drafts/home.json"
+    },
+    {
+      "name": "film",
+      "schemaName": "filmSchema",
+      "source": "studio/pages/film.json"
+    },
+    {
+      "name": "aboutTheFilm",
+      "schemaName": "aboutTheFilmSchema",
+      "source": "studio/pages/about-the-film.json"
+    },
+    {
+      "name": "pressKit",
+      "schemaName": "pressKitSchema",
+      "source": "studio/pages/press-kit.json"
+    },
+    {
+      "name": "siteSettings",
+      "schemaName": "siteSettingsSchema",
+      "source": "studio/settings/site.json"
+    },
+    {
+      "name": "videoLibrary",
+      "schemaName": "videoLibrarySchema",
+      "source": "studio/videos/*.json"
+    }
+  ]
+}

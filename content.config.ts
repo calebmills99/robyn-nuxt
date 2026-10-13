@@ -1,19 +1,28 @@
 import { defineContentConfig, defineCollection, z } from '@nuxt/content'
+import { homeSchema, filmSchema, aboutTheFilmSchema, pressKitSchema, siteSettingsSchema, videoLibrarySchema } from './content/studio/schemas'
 
-// Caleb edits these markdown files directly. There is no ingest step.
-// Extra frontmatter keys (hero, ctas, laurels...) land in `meta` and are read by the page templates.
+// Studio JSON contains the migrated pages; existing Markdown collections remain in place.
+// Extra Markdown frontmatter keys land in `meta` and are read by the page templates.
 export default defineContentConfig({
   collections: {
-    // Structured copy for hand-built pages (home, film, contact, press kit...)
+    home: defineCollection({ type: 'data', source: 'studio/pages/home.json', schema: homeSchema }),
+    homeDraft: defineCollection({ type: 'data', source: 'studio/drafts/home.json', schema: homeSchema }),
+    film: defineCollection({ type: 'data', source: 'studio/pages/film.json', schema: filmSchema }),
+    aboutTheFilm: defineCollection({ type: 'data', source: 'studio/pages/about-the-film.json', schema: aboutTheFilmSchema }),
+    pressKit: defineCollection({ type: 'data', source: 'studio/pages/press-kit.json', schema: pressKitSchema }),
+    siteSettings: defineCollection({ type: 'data', source: 'studio/settings/site.json', schema: siteSettingsSchema }),
+    videoLibrary: defineCollection({ type: 'data', source: 'studio/videos/*.json', schema: videoLibrarySchema }),
+
+    // Structured copy for hand-built pages; retired page copies remain on disk as references.
     site: defineCollection({
       type: 'page',
-      source: { include: 'site/*.md', prefix: '/_site' },
+      source: { include: 'site/*.md', exclude: ['site/home.md', 'site/film.md', 'site/press-kit.md'], prefix: '/_site' },
       schema: z.object({ fullTitle: z.string().optional(), ogImage: z.string().optional() }),
     }),
     // Generic content pages rendered at /<slug> (legal, SMS, about, 8 campaign pages)
     pages: defineCollection({
       type: 'page',
-      source: { include: 'pages/*.md', prefix: '/' },
+      source: { include: 'pages/*.md', exclude: ['pages/about-the-film.md'], prefix: '/' },
       schema: z.object({
         layout: z.enum(['legal', 'optin', 'about', 'campaign']).default('campaign'),
         sourceUrl: z.string().optional(),

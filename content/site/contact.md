@@ -1,6 +1,6 @@
 ---
 title: Contact
-description: 'Contact Golden Wings: press, former crew, and everything else.'
+description: "Contact Golden Wings: press, former crew, and everything else."
 label: Get in touch
 h1: Contact
 motto: Find Your Wings

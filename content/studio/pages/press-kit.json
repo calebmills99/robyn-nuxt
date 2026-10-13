@@ -1,0 +1,680 @@
+{
+  "title": "Press Kit",
+  "route": "/press-kit",
+  "_uid": "0920aebc-5261-439b-88df-fd750d3ab805",
+  "og_image": {
+    "id": null,
+    "alt": null,
+    "name": "",
+    "focus": null,
+    "title": null,
+    "source": null,
+    "filename": "",
+    "copyright": null,
+    "fieldtype": "asset",
+    "meta_data": {}
+  },
+  "component": "page",
+  "seo_title": "Press Kit",
+  "hero_stream_id": "0860630463d489750bacd638863084bc",
+  "seo_description": "Press kit for Golden Wings: Stewardess to Sky Queen. Synopsis, credits, festival laurels, stills, key art, and the Robyn Stewart Legacy Producer announcement.",
+  "background_image": {
+    "id": 226870182486184,
+    "alt": "",
+    "name": "",
+    "focus": "",
+    "title": "",
+    "source": "",
+    "filename": "https://a.storyblok.com/f/295612352463495/x/9b20bbfd43/747synthroll.mp4",
+    "copyright": "",
+    "fieldtype": "asset",
+    "meta_data": {},
+    "is_external_url": false
+  },
+  "sectionOrder": [
+    "text_section_1",
+    "text_section_2",
+    "text_section_3",
+    "quotes_1",
+    "credits_1",
+    "awards_1",
+    "gallery_1",
+    "download_cards_1",
+    "gallery_2"
+  ],
+  "sections": {
+    "text_section_1": {
+      "_uid": "59c3c479-5d74-4c4a-b163-331855333148",
+      "text_markdown": "Everything for coverage of *Golden Wings: Stewardess to Sky Queen*. Synopsis, credits, laurels, stills, key art, and the Legacy Producer announcement.",
+      "align": "",
+      "theme": "gold",
+      "buttons": [
+        {
+          "_uid": "5fb9fd02-f35d-4717-a629-5c7e84f8b595",
+          "link": {
+            "id": "",
+            "url": "/contact",
+            "linktype": "url",
+            "fieldtype": "multilink",
+            "cached_url": "/contact"
+          },
+          "label": "Request screener",
+          "style": "primary",
+          "download": false,
+          "component": "button",
+          "download_filename": ""
+        },
+        {
+          "_uid": "ee699842-42b1-41d6-9288-6f199e01faf7",
+          "link": {
+            "id": "",
+            "url": "",
+            "email": "info@golden-wings-robyn.com?subject=EPK%20request",
+            "linktype": "email",
+            "fieldtype": "multilink",
+            "cached_url": ""
+          },
+          "label": "Request EPK (PDF)",
+          "style": "ghost",
+          "download": false,
+          "component": "button",
+          "download_filename": ""
+        }
+      ],
+      "eyebrow": "For media",
+      "heading": "Press kit",
+      "component": "text-section",
+      "divider_top": "",
+      "heading_level": "h1",
+      "heading_style": "akira"
+    },
+    "text_section_2": {
+      "_uid": "0228bd16-7c71-4f77-bdbc-9ab9774517dc",
+      "text_markdown": "Where period footage was lost, Golden Wings reconstructs it with synthetic media and says so on screen. Every person you see in the film is real. Every reconstruction is labelled.",
+      "align": "",
+      "theme": "cream",
+      "eyebrow": "Synopsis",
+      "heading": "About the footage",
+      "component": "text-section",
+      "divider_top": "",
+      "heading_style": ""
+    },
+    "text_section_3": {
+      "_uid": "023ba5ac-b4b7-4503-ac4e-4356ed5e46fd",
+      "text_markdown": "The flight attendant at the center of the award-winning documentary joins its feature expansion with a producer credit she has already earned.",
+      "align": "",
+      "aside": "Gwingz Studios today announced that Robyn Stewart, an American Airlines flight attendant since 1971, has been named Legacy Producer on *Golden Wings: Stewardess to Sky Queen*, the feature-length expansion of the award-winning documentary short about her career and her family's three generations in commercial aviation.\n\nThe credit is not a courtesy. Stewart located Jock Bethune, the longtime \"voice of American Airlines\" who worked alongside her father on the 747 training program, and brought him to the film. She pointed the production toward Millie Alford, founder of the American Airlines Stewardess College, where Stewart herself trained in 1971.",
+      "theme": "slate",
+      "badges": "Legacy Producer, 55 years, Since 1971",
+      "eyebrow": "Press release · DFW, Texas",
+      "heading": "Robyn Stewart named Legacy Producer",
+      "component": "text-section",
+      "divider_top": "",
+      "heading_level": "",
+      "heading_style": "",
+      "background_image": {
+        "id": 227615899794384,
+        "alt": "",
+        "name": "",
+        "focus": "",
+        "title": "",
+        "source": "",
+        "filename": "https://a.storyblok.com/f/295612352463495/1024x1024/5ee6c2880a/gwssq_walk_of_fame.png",
+        "copyright": "",
+        "fieldtype": "asset",
+        "meta_data": {},
+        "is_external_url": false
+      }
+    },
+    "quotes_1": {
+      "_uid": "d59f9cd8-2bf2-46da-b89f-d5ac781ed7f7",
+      "items": [
+        {
+          "by": "Caleb Mills Stewart, Director",
+          "_uid": "a29f65af-2f96-4146-8f38-e8c3c5684a7f",
+          "text": "When she said 'you should talk to Jock,' she was not making a suggestion, she was producing. The credit just makes it official.",
+          "component": "quote"
+        },
+        {
+          "by": "Robyn Stewart, Legacy Producer",
+          "_uid": "7e413b86-50c0-4be1-9600-f3c41ac51f69",
+          "text": "Fifty-five years and I still get on the airplane. Millie Alford pinned wings on girls like me and sent us out into the world. Jock worked beside my father. I have been carrying these people with me my whole career. Now they get to be on screen, and I get a say in how.",
+          "component": "quote"
+        }
+      ],
+      "theme": "slate",
+      "component": "quotes"
+    },
+    "credits_1": {
+      "_uid": "2deb9100-230f-4050-a8bb-8480b156f008",
+      "crew": [
+        {
+          "_uid": "fed32916-3cf0-41a0-8ba9-da97323daab6",
+          "name": "Caleb Mills Stewart",
+          "role": "Director",
+          "component": "credit-row"
+        },
+        {
+          "_uid": "ecb2bcda-b4be-4846-ace0-18a6cd396ab9",
+          "name": "Robyn Stewart",
+          "role": "Legacy Producer",
+          "component": "credit-row"
+        },
+        {
+          "_uid": "012d3be9-5542-428b-b5d1-a9901834d675",
+          "name": "Gwingz Studios",
+          "role": "Production company",
+          "component": "credit-row"
+        },
+        {
+          "_uid": "930ebf3d-d052-4e9e-8448-c124a3e83d28",
+          "name": "Golden Wings: Stewardess to Sky Queen (short)",
+          "role": "Based on",
+          "component": "credit-row"
+        }
+      ],
+      "theme": "light",
+      "people": [
+        {
+          "_uid": "d7360aec-dfd0-49ba-b431-d6060e1836ba",
+          "name": "Robyn Stewart",
+          "text": "American Airlines flight attendant since 1971. Trained under Millie Alford; among the first flight attendants trained to fly the 747. Marked 55 years of service in July 2026.",
+          "badge": "Legacy Producer",
+          "component": "credit-person"
+        },
+        {
+          "_uid": "37db3077-09c6-46c7-8d0d-3c012f49c589",
+          "name": "Jock Bethune",
+          "text": "Longtime \"voice of American Airlines.\" Worked alongside Jay R. Ricks on the 747 training program; his interview at the C.R. Smith Museum anchors the feature.",
+          "badge": "",
+          "component": "credit-person"
+        },
+        {
+          "_uid": "59b2cbba-1176-4c85-b364-14b94d9b2c67",
+          "name": "Jay R. Ricks",
+          "text": "WWII navigator, American Airlines flight engineer. Helped build the airline's 747 training program. Robyn Stewart's father.",
+          "badge": "",
+          "component": "credit-person"
+        },
+        {
+          "_uid": "a55c68a9-55cd-4621-b6f0-a9c00fd78fbf",
+          "name": "Caleb Mills Stewart",
+          "text": "Director. Began Golden Wings as a student project at Academy of Art University, shot on a smartphone. Robyn Stewart's son.",
+          "badge": "",
+          "component": "credit-person"
+        }
+      ],
+      "eyebrow": "Credits",
+      "heading": "Key subjects & crew",
+      "component": "credits",
+      "divider_top": "",
+      "background_image": {
+        "id": 227412289421306,
+        "alt": "",
+        "name": "",
+        "focus": "",
+        "title": "",
+        "source": "",
+        "filename": "https://a.storyblok.com/f/295612352463495/5824x3264/83f9c43a0b/27.jpg",
+        "copyright": "",
+        "fieldtype": "asset",
+        "meta_data": {
+          "size": "5824x3264"
+        },
+        "is_external_url": false
+      }
+    },
+    "awards_1": {
+      "_uid": "48db3b70-4f69-4ff1-8fe8-8a071bd3fc6a",
+      "intro": "The short began as a student project at Academy of Art University, was shot on a smartphone, and premiered at the TCL Chinese Theatre in Los Angeles.",
+      "items": [
+        {
+          "_uid": "f568b7cd-03ec-47f2-8d94-8a422072e627",
+          "meta": "",
+          "year": "2024",
+          "award": "Best Short Documentary",
+          "badge": "Award",
+          "festival": "International Guadalajara Film Awards",
+          "component": "award"
+        },
+        {
+          "_uid": "07bee476-b97a-433e-ab37-564b1aca8c61",
+          "meta": "",
+          "year": "2024",
+          "award": "Best Short Documentary",
+          "badge": "Award",
+          "festival": "Swedish International Film Festival",
+          "component": "award"
+        },
+        {
+          "_uid": "df64e640-2439-431d-9070-6297f6ef4962",
+          "meta": "TCL Chinese Theatre, Los Angeles",
+          "year": "2024",
+          "award": "Best Short Cinematography",
+          "badge": "Award",
+          "festival": "Silicon Beach Film Festival",
+          "component": "award"
+        },
+        {
+          "_uid": "70b7c8ce-65f9-436e-83c7-6e512556a4e8",
+          "meta": "",
+          "year": "2025",
+          "award": "Most Outstanding",
+          "badge": "Award",
+          "festival": "NewsFest",
+          "component": "award"
+        },
+        {
+          "_uid": "baf3f5df-9b1c-492b-9770-09cd9795a31b",
+          "meta": "",
+          "year": "2025",
+          "award": "Most Inspiring",
+          "badge": "Award",
+          "festival": "NewsFest",
+          "component": "award"
+        },
+        {
+          "_uid": "11fd1a1f-26ad-41af-9eb3-68f737a97bd9",
+          "meta": "",
+          "year": "2025",
+          "award": "Best Trailer",
+          "badge": "Award",
+          "festival": "NewsFest",
+          "component": "award"
+        }
+      ],
+      "theme": "cream",
+      "eyebrow": "Festival laurels",
+      "heading": "More than a dozen awards",
+      "component": "awards",
+      "button_text_color": ""
+    },
+    "gallery_1": {
+      "_uid": "94b1461a-b3db-4975-893e-7d37abf9ba2b",
+      "intro": "Provided for editorial use only. Credit © Gwingz Studios unless otherwise noted.",
+      "style": "stills",
+      "theme": "slate",
+      "credit": "© Gwingz Studios",
+      "images": [
+        {
+          "id": null,
+          "alt": "Robyn Stewart receives her wings, 1971. Restored family print.",
+          "name": "",
+          "focus": "",
+          "title": "Robyn Stewart receives her wings, 1971. Restored family print.",
+          "source": "",
+          "filename": "https://golden-wings-robyn-nuxt.calebmills99.workers.dev/images/press/robyn-wings-1971.jpg",
+          "copyright": "",
+          "fieldtype": "asset",
+          "meta_data": {},
+          "is_external_url": true
+        },
+        {
+          "id": null,
+          "alt": "Stewardess College graduation day, 1971.",
+          "name": "",
+          "focus": "",
+          "title": "Stewardess College graduation day, 1971.",
+          "source": "",
+          "filename": "https://golden-wings-robyn-nuxt.calebmills99.workers.dev/images/press/robyn-graduation-hug-1971.jpg",
+          "copyright": "",
+          "fieldtype": "asset",
+          "meta_data": {},
+          "is_external_url": true
+        },
+        {
+          "id": null,
+          "alt": "Graduating class, American Airlines Stewardess College, 1971.",
+          "name": "",
+          "focus": "",
+          "title": "Graduating class, American Airlines Stewardess College, 1971.",
+          "source": "",
+          "filename": "https://golden-wings-robyn-nuxt.calebmills99.workers.dev/images/press/graduation-1971.jpg",
+          "copyright": "",
+          "fieldtype": "asset",
+          "meta_data": {},
+          "is_external_url": true
+        },
+        {
+          "id": null,
+          "alt": "Robyn Stewart, 2026.",
+          "name": "",
+          "focus": "",
+          "title": "Robyn Stewart, 2026.",
+          "source": "",
+          "filename": "https://golden-wings-robyn-nuxt.calebmills99.workers.dev/images/press/robyn-headshot.jpg",
+          "copyright": "",
+          "fieldtype": "asset",
+          "meta_data": {},
+          "is_external_url": true
+        },
+        {
+          "id": null,
+          "alt": "From the Stewart family archive.",
+          "name": "",
+          "focus": "",
+          "title": "From the Stewart family archive.",
+          "source": "",
+          "filename": "https://golden-wings-robyn-nuxt.calebmills99.workers.dev/images/press/archive-01.jpg",
+          "copyright": "",
+          "fieldtype": "asset",
+          "meta_data": {},
+          "is_external_url": true
+        },
+        {
+          "id": null,
+          "alt": "From the Stewart family archive.",
+          "name": "",
+          "focus": "",
+          "title": "From the Stewart family archive.",
+          "source": "",
+          "filename": "https://golden-wings-robyn-nuxt.calebmills99.workers.dev/images/press/archive-02.jpg",
+          "copyright": "",
+          "fieldtype": "asset",
+          "meta_data": {},
+          "is_external_url": true
+        }
+      ],
+      "columns": "3",
+      "eyebrow": "Press assets",
+      "heading": "Stills & downloads",
+      "component": "gallery",
+      "download_label": "↓ Download",
+      "button_text_color": ""
+    },
+    "download_cards_1": {
+      "_uid": "37775828-f302-48d4-a931-a7702460739d",
+      "items": [
+        {
+          "cta": "Download",
+          "_uid": "b3741332-fc1e-4e89-beec-220a3ef0d754",
+          "link": {
+            "id": "",
+            "url": "/images/poster/GWSSQ_Poster_2026.png",
+            "linktype": "url",
+            "fieldtype": "multilink",
+            "cached_url": "/images/poster/GWSSQ_Poster_2026.png"
+          },
+          "note": "PNG · portrait",
+          "label": "Film poster",
+          "style": "primary",
+          "title": "2026 key art",
+          "download": true,
+          "component": "download-card"
+        },
+        {
+          "cta": "Download",
+          "_uid": "bbdb49ed-963d-4750-9192-0c12ec1842c1",
+          "link": {
+            "id": "",
+            "url": "/images/brand/title-logo-2026.png",
+            "linktype": "url",
+            "fieldtype": "multilink",
+            "cached_url": "/images/brand/title-logo-2026.png"
+          },
+          "note": "PNG · transparent",
+          "label": "Title logo",
+          "style": "primary",
+          "title": "Golden Wings 2026",
+          "download": true,
+          "component": "download-card"
+        },
+        {
+          "cta": "Request",
+          "_uid": "3ceba363-98fa-4fa9-9e4b-e77e1107fcec",
+          "link": {
+            "id": "",
+            "url": "/contact",
+            "linktype": "url",
+            "fieldtype": "multilink",
+            "cached_url": "/contact"
+          },
+          "note": "Available on request",
+          "label": "Electronic press kit",
+          "style": "ghost",
+          "title": "Full EPK (PDF)",
+          "download": false,
+          "component": "download-card"
+        }
+      ],
+      "theme": "gold",
+      "component": "download-cards",
+      "button_text_color": ""
+    },
+    "gallery_2": {
+      "_uid": "62f22e42-6a29-4b21-ab65-b5b4960871f5",
+      "intro": "A running series of homage posters made for the film's social channels. Same title, same 747, same two faces; a different movie every time.",
+      "style": "posters",
+      "theme": "slate",
+      "images": [
+        {
+          "id": null,
+          "alt": "Golden Wings homage poster",
+          "name": "",
+          "focus": "",
+          "title": "",
+          "source": "",
+          "filename": "https://golden-wings-robyn-nuxt.calebmills99.workers.dev/images/posters/homage-02.png",
+          "copyright": "",
+          "fieldtype": "asset",
+          "meta_data": {},
+          "is_external_url": true
+        },
+        {
+          "id": null,
+          "alt": "Golden Wings homage poster",
+          "name": "",
+          "focus": "",
+          "title": "",
+          "source": "",
+          "filename": "https://golden-wings-robyn-nuxt.calebmills99.workers.dev/images/posters/homage-03.png",
+          "copyright": "",
+          "fieldtype": "asset",
+          "meta_data": {},
+          "is_external_url": true
+        },
+        {
+          "id": null,
+          "alt": "Golden Wings homage poster",
+          "name": "",
+          "focus": "",
+          "title": "",
+          "source": "",
+          "filename": "https://golden-wings-robyn-nuxt.calebmills99.workers.dev/images/posters/homage-04.jpg",
+          "copyright": "",
+          "fieldtype": "asset",
+          "meta_data": {},
+          "is_external_url": true
+        },
+        {
+          "id": null,
+          "alt": "Golden Wings homage poster",
+          "name": "",
+          "focus": "",
+          "title": "",
+          "source": "",
+          "filename": "https://golden-wings-robyn-nuxt.calebmills99.workers.dev/images/posters/homage-05.jpg",
+          "copyright": "",
+          "fieldtype": "asset",
+          "meta_data": {},
+          "is_external_url": true
+        },
+        {
+          "id": null,
+          "alt": "Golden Wings homage poster",
+          "name": "",
+          "focus": "",
+          "title": "",
+          "source": "",
+          "filename": "https://golden-wings-robyn-nuxt.calebmills99.workers.dev/images/posters/homage-06.jpg",
+          "copyright": "",
+          "fieldtype": "asset",
+          "meta_data": {},
+          "is_external_url": true
+        },
+        {
+          "id": null,
+          "alt": "Golden Wings homage poster",
+          "name": "",
+          "focus": "",
+          "title": "",
+          "source": "",
+          "filename": "https://golden-wings-robyn-nuxt.calebmills99.workers.dev/images/posters/homage-07.png",
+          "copyright": "",
+          "fieldtype": "asset",
+          "meta_data": {},
+          "is_external_url": true
+        },
+        {
+          "id": null,
+          "alt": "Golden Wings homage poster",
+          "name": "",
+          "focus": "",
+          "title": "",
+          "source": "",
+          "filename": "https://golden-wings-robyn-nuxt.calebmills99.workers.dev/images/posters/homage-08.png",
+          "copyright": "",
+          "fieldtype": "asset",
+          "meta_data": {},
+          "is_external_url": true
+        },
+        {
+          "id": null,
+          "alt": "Golden Wings homage poster",
+          "name": "",
+          "focus": "",
+          "title": "",
+          "source": "",
+          "filename": "https://golden-wings-robyn-nuxt.calebmills99.workers.dev/images/posters/homage-09.jpg",
+          "copyright": "",
+          "fieldtype": "asset",
+          "meta_data": {},
+          "is_external_url": true
+        },
+        {
+          "id": null,
+          "alt": "Golden Wings homage poster",
+          "name": "",
+          "focus": "",
+          "title": "",
+          "source": "",
+          "filename": "https://golden-wings-robyn-nuxt.calebmills99.workers.dev/images/posters/homage-11.png",
+          "copyright": "",
+          "fieldtype": "asset",
+          "meta_data": {},
+          "is_external_url": true
+        },
+        {
+          "id": null,
+          "alt": "Golden Wings homage poster",
+          "name": "",
+          "focus": "",
+          "title": "",
+          "source": "",
+          "filename": "https://golden-wings-robyn-nuxt.calebmills99.workers.dev/images/posters/homage-12.png",
+          "copyright": "",
+          "fieldtype": "asset",
+          "meta_data": {},
+          "is_external_url": true
+        },
+        {
+          "id": null,
+          "alt": "Golden Wings homage poster",
+          "name": "",
+          "focus": "",
+          "title": "",
+          "source": "",
+          "filename": "https://golden-wings-robyn-nuxt.calebmills99.workers.dev/images/posters/homage-13.png",
+          "copyright": "",
+          "fieldtype": "asset",
+          "meta_data": {},
+          "is_external_url": true
+        },
+        {
+          "id": null,
+          "alt": "Golden Wings homage poster",
+          "name": "",
+          "focus": "",
+          "title": "",
+          "source": "",
+          "filename": "https://golden-wings-robyn-nuxt.calebmills99.workers.dev/images/posters/homage-14.jpg",
+          "copyright": "",
+          "fieldtype": "asset",
+          "meta_data": {},
+          "is_external_url": true
+        },
+        {
+          "id": null,
+          "alt": "Golden Wings homage poster",
+          "name": "",
+          "focus": "",
+          "title": "",
+          "source": "",
+          "filename": "https://golden-wings-robyn-nuxt.calebmills99.workers.dev/images/posters/homage-15.png",
+          "copyright": "",
+          "fieldtype": "asset",
+          "meta_data": {},
+          "is_external_url": true
+        },
+        {
+          "id": null,
+          "alt": "Golden Wings homage poster",
+          "name": "",
+          "focus": "",
+          "title": "",
+          "source": "",
+          "filename": "https://golden-wings-robyn-nuxt.calebmills99.workers.dev/images/posters/homage-16.png",
+          "copyright": "",
+          "fieldtype": "asset",
+          "meta_data": {},
+          "is_external_url": true
+        },
+        {
+          "id": null,
+          "alt": "Golden Wings homage poster",
+          "name": "",
+          "focus": "",
+          "title": "",
+          "source": "",
+          "filename": "https://golden-wings-robyn-nuxt.calebmills99.workers.dev/images/posters/homage-17.png",
+          "copyright": "",
+          "fieldtype": "asset",
+          "meta_data": {},
+          "is_external_url": true
+        },
+        {
+          "id": null,
+          "alt": "Golden Wings homage poster",
+          "name": "",
+          "focus": "",
+          "title": "",
+          "source": "",
+          "filename": "https://golden-wings-robyn-nuxt.calebmills99.workers.dev/images/posters/homage-18.png",
+          "copyright": "",
+          "fieldtype": "asset",
+          "meta_data": {},
+          "is_external_url": true
+        },
+        {
+          "id": null,
+          "alt": "Golden Wings homage poster",
+          "name": "",
+          "focus": "",
+          "title": "",
+          "source": "",
+          "filename": "https://golden-wings-robyn-nuxt.calebmills99.workers.dev/images/posters/toy-story.jpg",
+          "copyright": "",
+          "fieldtype": "asset",
+          "meta_data": {},
+          "is_external_url": true
+        }
+      ],
+      "columns": "4",
+      "eyebrow": "Teaser art",
+      "heading": "One film, every genre",
+      "component": "gallery",
+      "heading_color": "#d4af35",
+      "button_text_color": ""
+    }
+  }
+}

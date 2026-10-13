@@ -1,35 +1,23 @@
 <script setup lang="ts">
 /**
- * Page shell for the Storyblok-edited routes. Published story on the public site; draft story
- * (and live updates through the Storyblok bridge) when opened inside the Storyblok Visual Editor.
+ * Existing page layout, supplied by local files editable in Nuxt Studio.
+ * The preserved Home draft is available locally with ?draft=1.
  * After the editable blocks the page always renders exactly one gwingz.com band (site rule).
  */
 const props = defineProps<{ slug: string, band: string, path: string, kind: 'home' | 'film' | 'about' | 'press-kit' }>()
 const route = useRoute()
 
-// Only the Visual Editor's signed params are forwarded; the server checks the signature.
-const tk = computed(() => {
-  const q = route.query
-  const out: Record<string, string> = {}
-  for (const k of ['_storyblok_tk[space_id]', '_storyblok_tk[timestamp]', '_storyblok_tk[token]']) {
-    if (typeof q[k] === 'string') out[k] = q[k] as string
-  }
-  // The story open in the Visual Editor (used by the server only with a valid signature).
-  if (typeof q._storyblok === 'string' && /^\d+$/.test(q._storyblok) && out['_storyblok_tk[token]']) out.id = q._storyblok
-  return out
-})
-
-const { data, error } = await useAsyncData(`sb-${props.slug}`, () =>
-  $fetch<{ story: any, draft: boolean }>('/api/storyblok/story', { query: { slug: props.slug, ...tk.value } }))
+const { data, error } = await useAsyncData(`local-${props.slug}`, () =>
+  $fetch<{ story: any, draft: boolean }>('/api/content/page', { query: { slug: props.slug, draft: import.meta.dev && route.query.draft === '1' ? '1' : '0' } }))
 if (error.value || !data.value?.story) {
   throw createError({ statusCode: error.value?.statusCode || 500, statusMessage: 'Page content unavailable', fatal: true })
 }
 
-const story = ref<any>(data.value.story)
+const story = computed<any>(() => data.value?.story)
 const content = computed(() => story.value?.content || {})
 /*
  * Page-level hero video: "Stream Video ID" (hero_stream_id, Cloudflare Stream) or else the HERO VIDEO
- * file (Storyblok field `background_image`, renamed by Caleb). When set it is the
+ * file (field `background_image`, renamed by Caleb). When set it is the
  * page's hero, like the old Squarespace hero (muted autoplay loop, cover, no controls):
  *  - page has a hero block: a video replaces that block's background_video (its photo stays as the
  *    poster/fallback); an image becomes the hero's photo (the block's own video, if any, still plays).
@@ -89,20 +77,15 @@ useSeoPage({
   jsonLd,
 })
 
-onMounted(() => {
-  if (!route.query._storyblok) return
-  useStoryblokBridge(story.value.id, (s: any) => { story.value = s })
-})
-
 defineExpose({ story })
 </script>
 
 <template>
   <div
-    v-editable="content"
+    :data-content-id="`${data?.draft ? 'homeDraft' : props.slug.replace(/-([a-z])/g, (_, c) => c.toUpperCase())}/studio/${data?.draft ? 'drafts' : 'pages'}/${props.slug}.json`"
     :class="['sb-page', `sb-page--${slug}`, darkGround ? 'sb-page--bg' : '']"
   >
-    <StoryblokComponent v-for="blok in body" :key="blok._uid" :blok="blok" />
+    <PageBlock v-for="blok in body" :key="blok._uid" :blok="blok" />
     <GwingzBand :page="band" />
   </div>
 </template>

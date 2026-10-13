@@ -1,28 +1,21 @@
 <script setup lang="ts">
 /**
- * One video (Storyblok story in the "videos" folder, content type `video`): the player is the main
+ * One video (local entry content/studio/videos/<slug>.json): the player is the main
  * content at the top, then title, description, transcript and credits, then the one gwingz.com band.
- * Published story only on the public site (unpublished = 404); the draft inside the Visual Editor.
+ * Published entries only on the public site (unpublished = 404); development shows drafts.
  */
 const route = useRoute()
 const slug = String(route.params.slug || '')
 
-// Only the Visual Editor's signed params are forwarded; the server checks the signature.
-const tk: Record<string, string> = {}
-for (const k of ['_storyblok_tk[space_id]', '_storyblok_tk[timestamp]', '_storyblok_tk[token]']) {
-  if (typeof route.query[k] === 'string') tk[k] = route.query[k] as string
-}
-if (typeof route.query._storyblok === 'string' && /^\d+$/.test(route.query._storyblok) && tk['_storyblok_tk[token]']) tk.id = route.query._storyblok
-
 const { data, error } = await useAsyncData(`video-${slug}`, () =>
-  $fetch<{ story: any, info: any, draft: boolean }>('/api/storyblok/video', { query: { slug, ...tk } }))
+  $fetch<{ story: any, info: any, draft: boolean }>('/api/content/video', { query: { slug } }))
 const status = error.value?.statusCode
 if (status && status !== 404) throw createError({ statusCode: status, statusMessage: 'Video unavailable', fatal: true })
 const notFound = !data.value?.story
 if (notFound && import.meta.server) setResponseStatus(useRequestEvent()!, 404)
 const nf = useAppConfig().siteNotFound as any
 
-const story = ref<any>(data.value?.story || null)
+const story = computed<any>(() => data.value?.story || null)
 const c = computed(() => story.value?.content || {})
 const uid = computed(() => streamIdFrom(c.value.stream_id))
 const title = computed(() => String(c.value.title || '').trim())
@@ -69,10 +62,6 @@ else {
   if (data.value!.draft) useHead({ meta: [{ name: 'robots', content: 'noindex' }] })
 }
 
-onMounted(() => {
-  if (!route.query._storyblok || !story.value?.id) return
-  useStoryblokBridge(story.value.id, (s: any) => { story.value = s })
-})
 </script>
 
 <template>
@@ -86,7 +75,7 @@ onMounted(() => {
       </div>
     </section>
   </div>
-  <div v-else v-editable="c" class="sb-page sb-page--video">
+  <div v-else :data-content-id="`videoLibrary/studio/videos/${slug}.json`" class="sb-page sb-page--video">
     <section class="sb-section sb-theme--slate vid-player">
       <div class="sb-wrap">
         <div v-if="player" class="sb-video vid-player__frame">

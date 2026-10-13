@@ -1,5 +1,5 @@
 <script setup lang="ts">
-// Content: Storyblok story "home" (blocks in app/storyblok/). The gwingz.com band is added by SbPage.
+// Content: content/studio/pages/home.json (blocks in app/components/blocks/). The gwingz.com band is added by SbPage.
 </script>
 
 <template>

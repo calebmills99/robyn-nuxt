@@ -46,9 +46,13 @@ export function useSeoPage(o: SeoInput) {
 
 /** Read a structured-copy entry from content/site/<name>.md (extra frontmatter lives in meta). */
 export async function useSiteCopy(name: string) {
-  // Site chrome (header/footer copy) is bundled at build time from content/site/chrome.md, so the
-  // server-rendered Storyblok pages can show it without a runtime content database.
-  if (name === 'chrome') return useAppConfig().siteChrome as any
+  // Site chrome is read from local settings; keep it reactive while Studio edits it.
+  if (name === 'chrome') {
+    const { data } = await useAsyncData('local-chrome', () => $fetch<any>('/api/content/settings'))
+    const chrome = reactive({ ...(data.value?.chrome || useAppConfig().siteChrome) })
+    watch(data, value => Object.assign(chrome, value?.chrome || {}))
+    return chrome as any
+  }
   const { data } = await useAsyncData(`site-${name}`, () => queryCollection('site').path(`/_site/${name}`).first())
   if (!data.value) throw createError({ statusCode: 500, statusMessage: `Missing content/site/${name}.md` })
   const page = data.value as any

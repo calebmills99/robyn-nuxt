@@ -3,7 +3,6 @@ import remarkAttrs from './content-plugins/remark-attrs.mjs'
 import tailwindcss from '@tailwindcss/vite'
 import fs from 'node:fs'
 import path from 'node:path'
-import { parse as parseYaml } from 'yaml'
 
 // SITE_ENV=production only at cutover. Anything else builds a noindex preview.
 const isProd = process.env.SITE_ENV === 'production'
@@ -20,35 +19,20 @@ const contentRoutes = [
 ]
 for (const r of contentRoutes) if (redirects[r]) throw new Error(`Redirect key collides with a real page: ${r}`)
 
-// Storyblok-edited pages: server-rendered on the Worker (published story; draft inside the Visual
-// Editor), so they are kept out of prerendering but stay in the sitemap.
-const storyblokRoutes = ['/', '/film', '/about-the-film', '/press-kit']
-const prerenderRoutes = contentRoutes.filter(r => !storyblokRoutes.includes(r))
+// Local settings preserve the header/footer that was running before the migration.
+const localSettings = JSON.parse(fs.readFileSync(path.resolve('content/studio/settings/site.json'), 'utf8'))
+const siteChrome = localSettings.chrome
+const siteNotFound = localSettings.notFound
 
-// Header/footer copy from content/site/chrome.md, bundled so SSR pages need no content database.
-const chromeMd = fs.readFileSync(path.resolve('content/site/chrome.md'), 'utf8')
-const siteChrome = parseYaml(chromeMd.split(/^---\s*$/m)[1] || '') as Record<string, unknown>
-// 404 copy (content/site/not-found.md), bundled for the server-rendered /videos/<slug> not-found view.
-const notFoundMd = fs.readFileSync(path.resolve('content/site/not-found.md'), 'utf8')
-const siteNotFound = parseYaml(notFoundMd.split(/^---\s*$/m)[1] || '') as Record<string, unknown>
-
-// Video pages (Storyblok folder "videos"): server-rendered, published stories only, never prerendered.
+// Local video pages: server-rendered, published entries only in production, never prerendered.
 const isVideoRoute = (p: string) => /^\/(videos(\/[^/]+)?|sitemap-videos\.xml)$/.test(p.replace(/[?#].*$/, '').replace(/\/+$/, ''))
 
 export default defineNuxtConfig({
   compatibilityDate: '2026-07-22',
   devtools: { enabled: false },
-  modules: ['@nuxt/content', '@nuxt/image', '@nuxtjs/robots', '@nuxtjs/sitemap', 'nuxt-link-checker', '@storyblok/nuxt'],
+  $production: { studio: false },
+  modules: ['@nuxt/content', '@nuxt/image', '@nuxtjs/robots', '@nuxtjs/sitemap', 'nuxt-link-checker', 'nuxt-studio'],
 
-  // Storyblok (space 295612352463495, EU). The delivery token is server-only: set at runtime from
-  // NUXT_STORYBLOK_ACCESS_TOKEN (.env locally, Worker secret on the preview Worker). Never in the client bundle.
-  storyblok: {
-    accessToken: '',
-    enableServerClient: true,
-    bridge: true,
-    apiOptions: { region: 'eu' },
-    componentsDir: '~/storyblok',
-  },
 
   appConfig: { siteChrome, siteNotFound },
   css: ['~/assets/css/main.css'],
@@ -139,16 +123,17 @@ export default defineNuxtConfig({
   },
 
   nitro: {
+    devStorage: { contentDumps: { driver: 'fs', base: path.resolve('.nuxt/content/raw') } },
+    serverAssets: [{ baseName: 'local-content', dir: path.resolve('content/studio'), ignore: ['**/*.ts'] }],
     preset: 'cloudflare_module',
     cloudflare: { deployConfig: false, nodeCompat: true },
     prerender: {
       crawlLinks: true,
       autoSubfolderIndex: false,
       failOnError: true,
-      routes: [...prerenderRoutes, '/404', '/robots.txt', '/sitemap.xml'],
+      routes: [...contentRoutes, '/404', '/robots.txt', '/sitemap.xml'],
       ignore: [
         '/api',
-        (p: string) => storyblokRoutes.includes(p.replace(/[?#].*$/, '').replace(/\/+$/, '') || '/'),
         isVideoRoute,
         '/cdn-cgi',
         (p: string) => !!redirects[p.replace(/\/+$/, '') || '/'],

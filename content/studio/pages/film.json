@@ -1,0 +1,95 @@
+{
+  "title": "Film",
+  "route": "/film",
+  "_uid": "cad309b0-4152-4099-81ef-3c259231d6d8",
+  "og_image": {
+    "id": null,
+    "alt": "",
+    "name": "",
+    "focus": "",
+    "title": "",
+    "source": "",
+    "filename": "https://golden-wings-robyn-nuxt.calebmills99.workers.dev/images/poster/GWSSQ_Poster_2026.png",
+    "copyright": "",
+    "fieldtype": "asset",
+    "meta_data": {},
+    "is_external_url": true
+  },
+  "component": "page",
+  "seo_title": "Film",
+  "hero_stream_id": "0860630463d489750bacd638863084bc",
+  "seo_description": "Golden Wings, the award-winning aviation documentary on Robyn Stewart’s 55-year career.",
+  "background_image": {
+    "id": null,
+    "alt": null,
+    "name": "",
+    "focus": null,
+    "title": null,
+    "source": null,
+    "filename": "",
+    "copyright": null,
+    "fieldtype": "asset",
+    "meta_data": {}
+  },
+  "sectionOrder": [
+    "text_section_1",
+    "text_section_2"
+  ],
+  "sections": {
+    "text_section_1": {
+      "_uid": "35f577d0-b942-4fa4-a2ba-7f50637ce2a3",
+      "text_markdown": "One American Airlines family across the 747 rollout, cabin service since 1971, and the years that remade the job.",
+      "align": "left",
+      "theme": "slate",
+      "buttons": [
+        {
+          "_uid": "2bea18e6-c1f1-4113-8e4b-631f38f2e684",
+          "link": {
+            "id": "",
+            "url": "/about-the-film",
+            "linktype": "url",
+            "fieldtype": "multilink",
+            "cached_url": "/about-the-film"
+          },
+          "label": "Full story",
+          "style": "ghost",
+          "download": false,
+          "component": "button",
+          "download_filename": ""
+        }
+      ],
+      "eyebrow": "Golden Wings",
+      "heading": "Stewardess to Sky Queen",
+      "component": "text-section",
+      "heading_level": "h1",
+      "heading_style": "monument"
+    },
+    "text_section_2": {
+      "_uid": "f69f3eab-2d1b-4862-84b6-5c2b7336a838",
+      "text_markdown": "From girdle checks at stewardess college to golden wings after fifty years in the cabin, one American Airlines family carries the 747 rollout, 9/11, sobriety, and loss across three generations.\n\nRobyn Stewart has flown for American Airlines since 1971. Her son Caleb directed the film. Jay R. Ricks, her father, was an AA flight engineer on the 747 training program. Jock Bethune, an AA media production specialist, appears on camera.",
+      "align": "left",
+      "theme": "light",
+      "eyebrow": "Synopsis",
+      "heading": "Keep going",
+      "component": "text-section",
+      "heading_level": "",
+      "heading_style": "akira",
+      "background_image": {
+        "id": 227412290367491,
+        "alt": "",
+        "name": "",
+        "focus": "",
+        "title": "",
+        "source": "",
+        "filename": "https://a.storyblok.com/f/295612352463495/5824x3264/df5a8ef3ca/35.jpg",
+        "copyright": "",
+        "fieldtype": "asset",
+        "meta_data": {
+          "size": "5824x3264"
+        },
+        "is_external_url": false
+      },
+      "button_text_color": ""
+    }
+  }
+}

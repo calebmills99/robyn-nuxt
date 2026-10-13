@@ -1,8 +1,7 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
-  // PRODUCTION Worker for the 4 Storyblok pages on golden-wings-robyn.com and www.
+  // PRODUCTION Worker for the 4 block pages on golden-wings-robyn.com and www.
   // Build + deploy: npm run deploy:home (SITE_ENV=production build: indexable, no X-Robots-Tag).
-  // The Storyblok editor keeps using the noindex preview Worker (wrangler.jsonc).
   // Routes golden-wings-robyn.com/* and www.golden-wings-robyn.com/* are added once, at cutover,
   // in front of the live Worker golden-wings-robyn (custom domains). Rollback = delete those 2 routes.
   "name": "golden-wings-robyn-home",
@@ -19,7 +18,6 @@
     // Only hashed build files skip the Worker; every other path must reach home-worker.mjs so it can pass through.
     "run_worker_first": ["/*", "!/_nuxt/*"]
   },
-  // Secret (not here): NUXT_STORYBLOK_ACCESS_TOKEN.
   "vars": { "SITE_ENV": "production", "HOME_PASSTHROUGH": "1" },
   "observability": { "enabled": true }
 }

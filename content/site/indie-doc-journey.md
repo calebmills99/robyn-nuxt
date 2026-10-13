@@ -4,9 +4,15 @@ description: Behind-the-scenes notes from making Golden Wings - festival strateg
 label: Companion blog
 h1: Indie Doc Journey
 intro: Festival lessons, craft notes, and the long road of an independent aviation documentary.
-filters: [All, Festivals, Craft, People, Special Dispatch, From the Galley]
+filters:
+  - All
+  - Festivals
+  - Craft
+  - People
+  - Special Dispatch
+  - From the Galley
 dispatchCard:
-  name: 'Special Dispatch № 01: Banned on Christmas Eve'
+  name: "Special Dispatch № 01: Banned on Christmas Eve"
   jsonLdDescription: Christmas Eve ban survival map, smoking gun, and Meta small-claims win.
   badge: Special Dispatch № 01
   title: Banned on Christmas Eve
